@@ -1,0 +1,27 @@
+input{
+    width: 95%;
+    text-indent: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight:600;
+}
+.list li{
+    background-color: darkgray;
+    border: 1px solid black;
+}
+.list li span{
+    padding: 5px;
+    display: block;
+    color: aliceblue;
+}
+.name{
+    float: left;
+}
+.phone{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}

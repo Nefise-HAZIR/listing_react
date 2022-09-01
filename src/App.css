@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul,li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+body{
+  background-color:dimgray;
+}
+button{
+  border: none;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: gray;
 }
